@@ -9,7 +9,18 @@ section{
 }
 .Homesection{ 
     background-color: #d7cec5 ;
-}
+    animation: fadeInAnimation ease 3s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
 .Name{
     left: 3em;
     line-height: 200px;
@@ -44,15 +55,46 @@ section{
     text-align: center;
     padding-top: 1em;
 }
+/* Transition on Hover */
+.Websites img{
+    filter: grayscale(100%);
+-webkit-filter: grayscale(100%);
+-webkit-transition: all 1s ease;
+margin: auto;
+display: block;
+padding:3em;
+}
+.Websites img:hover{
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 1s ease;
+    padding: 5em;
+    }
 .ImagesDC{
     width: 300px;
     height: auto;
+    cursor: pointer;
+    
 }
+
 .ImagesMarvel{
     width: 300px;
     height: auto;
+    cursor: pointer;
 }
 .ImagesMercari{
     width: 300px;
+    height: auto;
+    cursor: pointer;
+}
+
+.page-header{
+    font-size:3em;
+    text-align: center;
+    padding-top:1em;
+}
+.secondSection{
     height: auto;
 }
