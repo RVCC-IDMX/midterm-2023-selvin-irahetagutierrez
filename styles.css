@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+}
+body{
+    font-family: 'Mulish', sans-serif;
+}
+section{
+    height:100vh
+}
+.Homesection{ 
+    background-color: #d7cec5 ;
+}
+.Name{
+    left: 3em;
+    line-height: 200px;
+    margin-top: -150px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    font-size: 4em;
+}
+.subtitle{
+    left: 5em;
+    line-height: 200px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    font-size: 2em;
+}
+.secondSection{
+    background-color: #f6f5f4;
+}
+.Experience{
+    font-size: 4em;
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 1em;
+}
+.writing{
+    font-size:1.5em;
+    text-align: center;
+    padding-top: 1em;
+}
+.ImagesDC{
+    width: 300px;
+    height: auto;
+}
+.ImagesMarvel{
+    width: 300px;
+    height: auto;
+}
+.ImagesMercari{
+    width: 300px;
+    height: auto;
+}
